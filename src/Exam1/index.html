@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Email Template Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            background-color: #d8dbdb;
+            padding: 20px;
+            font-family: 'Roboto', Arial, sans-serif; /* Google Font */
+            font-size: 18px;
+            color: #565859;
+        }
+        .wrapper{
+            background-color: #f6faff;
+            max-width: 700px;
+            margin: 0 auto;
+            box-shadow: 0 0  10px #616e79;
+            border-top: 10px solid #37a28f;
+            border-radius: 5px 5px 10px 10px;
+        }
+        .logo{
+            text-align: center;
+            padding: 1% 0;
+        }
+        .logo img{
+            max-width: 250px;
+        }
+        img{
+            max-width: 100%; 
+        }
+        .three-columns{
+            width: 29.3%;
+            padding: 5% 2% 6%;
+            text-align: center;
+            float: left;
+            margin: 15px 0px 32px;
+
+        }
+        .three-columns img{
+            max-width: 135px;
+        }
+        h2{
+            font-weight: 700;
+            font-size: 28px;
+            letter-spacing: 1px;
+            margin: 20px 0 8px;
+        }
+        p{
+            line-height: 26px;
+            padding-bottom: 15px;
+        }
+        .btn{
+            background-color: #37a28f;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 14px;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            border-radius: 6px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            transition: .4s;
+        }
+
+        .btn:hover{
+            background-color: #3db5a0;
+            color: #fff;
+        }
+
+        hr.orange {
+            border: 1px solid #fe6b58; 
+            width: 96%;
+            margin: 15px auto;
+        }
+
+        .two-columns{
+            float: left;
+            width: 46%;
+            padding: 5% 2%;
+            margin: 10px 0 26px;
+        }
+
+        .two-columns h2{
+            margin: 0;
+        }
+
+        ul.social{
+            list-style-type: none;
+            text-align: center;
+            padding: 10px;
+            margin: 20px 0 5px;
+            width: 96%;
+        }
+
+        ul.social li {
+            display: inline;
+        }
+
+        .social li img{ 
+            max-width: 40px;
+
+        }
+
+        .contact {
+            text-align: center;
+            color: #2b9684;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #2b9684;
+
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+            color: #fe6b58;
+        }
+
+        @media (max-width: 600px) {
+            body{
+                padding: 5px;
+            }
+
+            .banner {
+                margin-bottom: 20px;
+            }
+
+            .three-columns, .two-columns{
+                width: 96%;
+                margin: 0 0 35px;
+            }
+
+            .three-columns img{
+                max-width: 155px;
+            }
+
+            hr.orange {
+                margin-bottom: 30px;
+            }
+
+            .two-columns:last-child {
+                padding-left: 15px;
+                padding-bottom: 30px;
+            }
+
+            
+
+
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        
+        <div class="logo">
+            <a href="https://example.com" target="_blank"> <img src="img/logo.png" alt="HTML5 Logo" title="HTML5 Logo"></a>
+        </div>
+
+    
+        <a href="https://example.com"><img src="/img/banner.png" alt="Banner" title="Banner" class="banner"></a>
+
+
+
+        <!-- Three Columns -->
+        <div class="three-columns">
+            <a href="https://example.com" target="_blank"> <img src="img/mouse.png" alt="Mouse" title="Mouse"></a>
+            <h2>Email Development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, consequatur ab. Veniam cumque harum quam itaque! Inventore officia, fuga odio eum ducimus maxime neque veniam voluptatem odit dolore tempora illum.</p>
+
+            <div class="button-holder">
+                <a href="https://example.com" class="btn" target="_blank">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="three-columns">
+
+            <a href="https://example.com" target="_blank"> <img src="img/phone.png" alt="Phone" title="Phone"></a>
+
+            <h2>Mobile Friendly</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, consequatur ab. Veniam cumque harum quam itaque! Inventore officia, fuga odio eum ducimus maxime neque veniam voluptatem odit dolore tempora illum.</p>
+
+            <div class="button-holder">
+                <a href="https://example.com" class="btn" target="_blank">HTML Email</a>
+
+            </div>
+
+        </div>
+
+        <div class="three-columns">
+            <a href="https://example.com" target="_blank"> <img src="img//computer.png" alt="Computer" title="Computer"></a>
+            <h2>Desktop Clients</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, consequatur ab. Veniam cumque harum quam itaque! Inventore officia, fuga odio eum ducimus maxime neque veniam voluptatem odit dolore tempora illum.</p>
+            <div class="button-holder">
+                <a href="https://example.com" class="btn" target="_blank">Development</a>
+            </div>
+        </div>
+
+        <hr class="orange">
+
+        <!-- Two columns -->
+        <div class="two-columns">
+            <a href="https://example.com" target="_blank" rel="noopener ">
+                <img src="img/pie-chart.png" alt="">
+            </a>
+        </div>
+        <div class="two-columns second">
+            <h2>Latest Email Design</h2>
+            <p>There are a lot of email clients to consider when chossing a design width but 600px is the most common.</p>
+            <div class="button-holder">
+                <a href="https://example.com" class="btn" target="_blank">Email Design Course</a>
+            </div>
+        </div>
+        <!-- End of Two columns -->
+
+        <hr class="orange">
+
+        <!-- Row Icons -->
+        <ul class="social">
+            <li><a href="https://example.com" target="_blank"><img src="https://i.ibb.co/5cp6Gtb/facebook.png" alt="Facebook" title="Facebook"></a></li>
+            <li><a href="https://example.com" target="_blank"><img src="https://i.ibb.co/m4PgXq6/twitter.png" alt="Twitter" title="Twitter"></a></li>
+            <li><a href="https://example.com" target="_blank"><img src="https://i.ibb.co/Ttf0YmH/youtube.png" alt="YouTube" title="YouTube"></a></li>
+            <li><a href="https://example.com" target="_blank"><img src="https://i.ibb.co/8brZJJt/instagram.png" alt="Instagram" title="Instagram"></a></li>
+            <li><a href="https://example.com" target="_blank"><img src="https://i.ibb.co/3zn6mW3/linkedin.png" alt="Linkedin" title="Linkedin"></a></li>
+
+        </ul>
+        <!-- End Row Icons -->
+
+        <!-- Contact -->
+        <p class="contact">
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer">www.myporffolio.com</a><br>
+            <a href="tel:+23329892839"> 1-23232-32323-2</a><br>
+            <a href="mailto:name@myportafolio.com">name@myporffolio.com</a>
+            <br>Arequipa - Peru - PMI<br>
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer">Unsubscribe</a> |
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preferences</a> <br>
+        </p>
+        <!-- End Contact -->
+
+     </div> <!--End of Wrapper -->
+</body>
+</html>
+
+
+<!-- https://w3newbie.imgbb.com/
+https://i.ibb.co/JtckNqn/logo.png
+https://i.ibb.co/zQ558kP/banner.png
+
+https://i.ibb.co/tHQy3gL/mouse.png
+https://i.ibb.co/42MJn1V/phone.png
+https://i.ibb.co/RD0sR6V/computer.png
+https://i.ibb.co/NKdYy92/pie-chart.png
+
+https://i.ibb.co/5cp6Gtb/facebook.png
+https://i.ibb.co/m4PgXq6/twitter.png
+https://i.ibb.co/Ttf0YmH/youtube.png
+https://i.ibb.co/8brZJJt/instagram.png
+https://i.ibb.co/3zn6mW3/linkedin.png
+-->
