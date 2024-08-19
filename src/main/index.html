@@ -84,6 +84,13 @@
             width: 100% !important;
             max-width: 100% !important;
          }
+
+         .column.column-one-third img.one-third-col-img {
+            max-width: 60% !important;
+            padding-top: 15px !important;
+            background-color: transparent !important;
+         }
+
       }
       @media screen and (max-width: 499.98px) {
          .column-wrapper {
@@ -123,6 +130,8 @@
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
       @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
    </style>
 
@@ -178,7 +187,7 @@
                      <tr>
                         <td align="center" valign="middle" style="position: relative; text-align: center;">
                            <img src="../resources/BANNERS/1C_BANNER.png" alt="Banner" style="display: block; width: 100%; max-width: 600px;">
-                           <div style="font-size: 15px;margin: 0;line-height: 18px; position: absolute; top: 40%; letter-spacing: 0.3px; color: #FCF9F5;">
+                           <div style="font-size: 15px;margin: 0;line-height: 18px; position: absolute; top: 40%; letter-spacing: 0.3px; color: #FCF9F5; padding: 0 10px 30px 10px;">
                               HOLA, {{NOMBRE}} <br><br> Gracias por realizar tu inscripción en la modalidad {{MODALIDAD}}, estamos ansiosos de verte ese día.
                            </div>
                         </td>
@@ -190,86 +199,75 @@
 
 
 <!-- START TWO COLUMNS FIRST -->
-            <tr style="padding: 0px 0px;">
-               <td style="padding: 0 0 30px;">
+<tr>
+   <td style="padding:30px 0 30px 0;">
+      <table width="100%" style="border-spacing:0;" role="presentation">
+         <tr>
+            <td class="column-wrapper" style="padding: 15px 0; font-size:0;text-align: center;">
+
+               <!--[if mso]>
                   <table width="100%" style="border-spacing:0;" role="presentation">
-                     <tr>
-                        <td class="column-wrapper" style="padding:0;font-size:0;text-align: center;">
+                  <tr>
+                  <td width="200" valign="middle" style="padding: 0;">
+               <![endif]-->
+               <table class="column column-two-third" style="border-spacing:0;vertical-align:middle;width:100%;max-width:400px;display:inline-block;" role="presentation">
+                  <tr>
+                     <td class="padding" style="padding: 0 10px 0 10px;">
 
-                           <!--[if mso]>
-                              <table width="100%" style="border-spacing:0;" role="presentation">
-                              <tr>
-                              <td width="300" valign="middle" style="padding: 0;">
-                           <![endif]-->
-                           <table class="column column-one-half" style="border-spacing:0;vertical-align:middle;width:100%;max-width:300px;display:inline-block;" role="presentation">
-                            <tr>
-                               <td class="padding" style="padding: 0 20px;">
-
-                                  <table class="content" style="border-spacing:0;text-align: center;" role="presentation">
-                                     <tr>
-                                        <td style="padding: 50px 0 8px 0;">
-                                           <h2 style="font-size: 20px;font-weight: 400;margin: 0;">WhatsApp</h2>
-                                        </td>
-                                     </tr>
-                                     <tr>
-                                        <td style="padding: 8px 30px 20px 8px;">
-                                           <p style="font-size: 15px;margin: 0;line-height: 20px;">Haz click en el siguiente botón para entrar al grupo de WhatsApp de inscritos.</p>
-                                        </td>
-                                     </tr>
-                                     <tr>
-                                        <td align="center" style="padding: 0;">
-                                            <table align="center" role="presentation" style="border-spacing:0;">
-                                               <tr>
-                                                  <td align="center" bgcolor="#F4EDE3">
-                                                     <a class="bluelink" href="https://chat.whatsapp.com/CyiZPlXjfTdDtXp4Em698x" target="_blank" style="font-size: 15px;text-decoration: none;background-color: #FF9461;padding:8px 30px;display: inline-block;">
-                                                        Ingresar
-                                                     </a>
-                                                  </td>
-                                               </tr>
-                                            </table>
-                                         </td>
-                                     </tr>
-                                  </table>
-
-                               </td>
-                            </tr>
-                         </table>
-                           
-                           <!--[if mso]>
-                           </td><td width="300" valign="middle" style="padding: 0;">
-                           <![endif]-->
-                        <table class="column column-one-half" style="border-spacing:0;vertical-align:middle;width:100%;max-width:300px;display:inline-block;" role="presentation">
-                        <tr>
-                           
-                           <td class="padding" style="padding:0; margin: 0;">
-                           <table class="content" style="border-spacing:0;text-align: left;" role="presentation">
-                                    <tr>
-                                    <td>
-                                        <a href="https://example.com/6" target="_blank">
-                                            <img src="https://github.com/omrlw/html-email-mastery-images/blob/main/src/resources/whatsapp_logo.png?raw=true" alt="NEW BEGINNINGS" title="NEW BEGINNINGS" width="260" style="max-width: 260px;border: 0;">
-                                        </a>
-                                    </td>
-                                    </tr>
-                                </table>
-
-                            </td>
-                        </tr>
+                        <table class="content" style="border-spacing:0;text-align: left;" role="presentation">
+                           <tr>
+                              <td style="vertical-align:middle;padding: 0 10px 0 10px;">
+                                 <div class="darkmode-transparent gmail-blend-screen">
+                                    <div class="darkmode-transparent gmail-blend-difference">
+                                       <p style="font-family: Montserrat,sans-serif;font-size: 16px; line-height: 28px; font-weight: 500; margin: 0;">Haz click en el siguiente botón para entrar al grupo de WhatsApp de inscritos!</p>
+                                    </div>
+                                 </div>
+                              </td>
+                           </tr>
                         </table>
 
-                           <!--[if mso]>
-                              </td>
-                              </tr>
-                              </table>
-                           <![endif]-->
+                     </td>
+                  </tr>
+               </table>
+               
 
-                        </td>
-                     </tr>
+               <!--[if mso]>
+               </td><td width="400" valign="middle" style="padding: 0;">
+               <![endif]-->
+
+               <table class="column column-one-third" style="border-spacing:0; vertical-align:middle;width:100%; max-width: 200px; display: inline-block;" role="presentation">
+                  <tr>
+                     <td class="padding" style="padding: 0 20px 0 20px;">
+
+                        <table class="content" style="border-spacing:0;text-align: center;" role="presentation">
+                           <tr>
+                              <td>
+                                 <a href="https://chat.whatsapp.com/CyiZPlXjfTdDtXp4Em698x" target="_blank">
+                                    <img class="one-third-col-img" src="../resources/COLUMNAS/C1_WHATSAPP.png" alt="Woman Circle" width="160" style="max-width:160px; border: 0;">
+                                 </a>
+                              </td>
+                           </tr>
+                        </table>
+
+                     </td>
+                  </tr>
+               </table>
+
+               <!--[if mso]>
+                  </td>
+                  </tr>
                   </table>
-               </td>
-            </tr>
+               <![endif]-->
+
+            </td>
+         </tr>
+
+      </table>
+   </td>
+</tr>
 <!-- END TWO COLUMNS FIRST -->
 
-<!-- START FOUR COLUMNS -->
+<!-- START TWO COLUMNS SECOND -->
 <tr style="background-image: url(../resources/BANNERS/7B_BANNER.png); background-size: cover;">
 
    <td style="padding: 0 0 35px ;" >
@@ -332,7 +330,7 @@
                                     <tr>
 
                                        <td align="center" bgcolor="#F4EDE3">
-                                          <a class="bluelink" href="https://example.com/7" target="_blank" style="font-size: 15px;text-decoration: none;color: #44413D;background-color: #FF9461;padding:8px 30px;border: 2px solid #7D766F;display: inline-block;">
+                                          <a class="bluelink" href="https://example.com/7" target="_blank" style="font-size: 15px;text-decoration: none;color: #44413D;background-color: #F28500;padding:8px 30px;border: 2px solid #333333;display: inline-block;">
                                              UBICACIÓN
                                           </a>
                                        </td>
@@ -358,7 +356,7 @@
       </table>
    </td>
 </tr>
-<!-- END FOUR COLUMNS -->
+<!-- END SECOND COLUMNS -->
 
 <!-- START TWO COLUMNS SECOND -->
 <tr>
